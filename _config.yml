@@ -1,1 +1,346 @@
-theme: jekyll-theme-cayman
+
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    
+    header,main,footer{
+      font-family: Microsoft JhengHei;
+    }
+    .logo{
+      max-width: 200px;
+      max-height: 50px;
+    }
+    .navbar{
+      background-color: #000000;
+    }
+    .container-img{
+      max-width: 180px;
+      max-height: 180px;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 15px;
+    }
+    .btn{
+      width: 230.41px;
+      height: 238px;
+    }
+    .btn-circle.btn-lg {
+      border-radius: 25px;
+    }
+    .btn-circle.btn-xl {
+      width: 100%;
+      max-width:230.41px;
+      height: 100%;
+      max-height: 238px;
+      font-size: 22px;
+      border-radius: 999em;
+      margin: 0 auto;
+    }
+    a {
+      text-decoration:none;
+      color:gray;
+      text-align: center;
+    }
+    .item h5,.item p{
+      color: black;
+    }
+    .content{
+      background-color: #232425;
+    }
+    .content .col-lg-6{
+      color: white;
+    }
+    .footer{
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+  </style>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.min.css"></link>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script>
+  
+  
+
+  <title>Kawasaki Motors Taiwan</title>
+</head>
+<body>
+  <header id="top">
+    <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="KAWASAKI.html"><img class="logo" src="images/KAWASAKI/LOGO.png" alt="Kawasaki"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#ch01">車款介紹<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#ch02">NEWS & EVENTS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">關於Kawasaki</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/KAWASAKI/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/KAWASAKI/8.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Marketing Icons Section -->
+      <hr />
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <a href="#ch01" class="btn btn-success btn-circle btn-xl">
+            <i class="fa fa-5x fa-file-text-o">
+              <img class="container-img" src="images/KAWASAKI/moto.png" alt="">
+            </i>
+            <br />
+            車款介紹
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <a href="Schedule.aspx" class="btn btn-primary btn-circle btn-xl">
+            <i class="fa fa-5x fa-calendar">
+              <img style="height: 130px; margin: 25px" class="container-img" src="images/KAWASAKI/bilb.png" alt="">
+            </i>
+            <br />
+            重車常識
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <a href="Register.aspx" class="btn btn-danger btn-circle btn-xl">
+            <i class="fa fa-5x fa-user">
+              <img class="container-img" src="images/KAWASAKI/map.png" alt="">
+            </i>
+            <br />
+            經銷據點
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <a href="Seat.aspx" class="btn btn-warning btn-circle btn-xl">
+            <i class="fa fa-5x fa-laptop">
+              <img class="container-img" src="images/KAWASAKI/service.png" alt="">
+            </i>
+            <br />
+            服務專區
+          </a>
+        </div>
+
+
+      </div>
+      <!-- /.row -->
+      <hr style="padding: 3px;" />
+      
+      <div class="body" id="ch01">
+        <h1 style="text-align: center;">New Model</h1>
+        <div class="owl-carousel owl-theme owl-loaded">
+          <div class="item">
+            <a target="_blank" href="連結網址">
+              <img src="images/KAWASAKI/p1.jpg" />
+              <h5>Ninja ZX-6R</h5>
+              <p>FOR THE FEARLESS-無所畏懼</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p2.jpg" />
+              <h5>Ninja 1000</h5>
+              <p>精心打造的夢幻組合</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p3.jpg" />
+              <h5>Ninja 650</h5>
+              <p>動靜皆宜的中量級忍者</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p4.jpg" />
+              <h5>Ninja 400</h5>
+              <p>STREET BORN TRACK INSPIRED-跨越界限</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p5.jpg" />
+              <h5>Z900</h5>
+              <p>REFINED RAW-淬鍊不凡</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p6.jpg" />
+              <h5>Z650</h5>
+              <p>一眼就愛上的 Z style.</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p7.jpg" />
+              <h5>Z400</h5>
+              <p>REFINED RAW-街頭新浪潮</p>
+            </a>
+          </div>
+          <div class="item">
+            <a target="_blank" href=" ">
+              <img src="images/KAWASAKI/p8.jpg" />
+              <h5>Z900 RS</h5>
+              <p>True Spirit-雋永靈魂．承襲經典</p>
+            </a>
+          </div>
+        </div>
+
+        <script>
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+              0: {
+                items: 1
+              },
+              600: {
+                items: 2
+              },
+              1000: {
+                items: 3
+              }
+            }
+          })
+        </script>
+      </div>
+      <div class="about" style="background-color: #232425;" id="ch02">
+        <h1 style="text-align: center; background-color: white; padding-bottom: 0; margin: 0;">News & Events</h1>
+        <div class="content">
+          <div class="row no-gutters"> <!-- no-gutters 拿掉系統預設padding -->
+            <div class="col-lg-6 text-center align-self-center  order-lg-1">
+              <h3 class="title my-3" style="color: #73B32B;"><b>| 「崎開得勝 無懈可擊」<small>Kawasaki Taiwan</small></b></h3> <!-- my-3 上下外邊界 mx-3 左右外邊界 -->
+              <p style="margin: 0px 70px;">日前於大溪笠復威斯汀度假酒店，舉行全國授權經銷商春酒晚宴，
+                以慰勞經銷商夥伴在2018年共販售超過兩千台的好成績、並連續3年達成績效。
+                同樣在日本國內，川崎重工旗下251c.c.以上重車銷售量，也自1997年以來，
+              首度登上市場的冠軍品牌，顯示Kawasaki近年來針對重車產品的用心與經營。</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-fluid" src="images/KAWASAKI/g1.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="row no-gutters"> <!-- no-gutters 拿掉系統預設padding -->
+            <div class="col-lg-6 text-center align-self-center">
+              <h3 class="title my-3" style="color: #73B32B;"><b>| 2019 Kawasaki 崎車趣全台啟程開跑<small>Kawasaki Taiwan</small></b></h3> <!-- my-3 上下外邊界 mx-3 左右外邊界 -->
+              <p style="margin: 0px 70px;">還記得去年Kawasaki車友的熱鬧時光嗎？為了延續車主間的期待、以及提供K旅人假日群聚聊車經的好所在，由Kawasaki Taiwan所舉辦2019 Kawasaki崎車趣即將再度於全台啟程，邀您一同騎車享樂趣！活動現場將有2019新車款展示，加上可愛俏麗的Kawasaki Girls與您同樂，趣味集點活動、精緻Kawasaki專屬贈品，2019崎車趣活動絕對精采可期。</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-fluid" src="images/KAWASAKI/g2.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="row no-gutters"> <!-- no-gutters 拿掉系統預設padding -->
+            <div class="col-lg-6 text-center align-self-center  order-lg-1">
+              <h3 class="title my-3" style="color: #73B32B;"><b>| Kawasaki 新車展示暨試駕會活動開跑<small>Kawasaki Taiwan</small></b></h3> <!-- my-3 上下外邊界 mx-3 左右外邊界 -->
+              <p style="margin: 0px 70px;">為了讓喜愛Kawasaki新車款的車迷朋友能體驗到駕馭Kawasaki的樂趣，將舉辦全國授權經銷商的試駕體驗會，能近距離感受到「街頭新浪潮」Z400黃牌街車的震撼魅力，亦能試駕「無所畏懼」的中量級仿賽Ninja ZX-6R、具有Cafe Racer風味的Z900RS CAFE，來讓廣大喜愛Kawasaki的車迷朋友們，更認識Kawasaki車款所帶來的「強悍」與「溫柔」並存的造車理念。</p>
+            </div>
+            <div class="col-lg-6">
+              <img class="img-fluid" src="images/KAWASAKI/g3.jpg" alt="">
+            </div>
+          </div>
+          <p style="text-align: right;" ><a href="#top" style="color: white;">Back to Top</a></p>
+      </div>
+    </main>
+    <footer>
+      <div class="footer" style="padding: 20px;">
+        <div class="btm-left">
+          <a href="http://www.khi.co.jp/kawasakiworld/cn_com/index.html" target="_blank" class="icon kawasaki"></a>
+          <i></i>
+          <a class="icon fb" href="https://www.facebook.com/KawasakiMotorsTW/" target="_blank"></a>
+          <a target="_blank" class="icon ig" href="//www.instagram.com/kawasakitaiwan/"></a>
+        </div>
+        <div class="btm-right">
+          <div class="icon logo"></div>
+          <div class="info">
+            <p>總經銷：台崎重車股份有限公司 新北市中和區橋和路102號</p>
+            <p>TEL: 02-2246-0828 ｜FAX: 02-2246-0703©
+              <a href="mailto:kawasaki@mail.kymco.com" class="icon mail"></a>
+            </p>
+            <p>2018 Kawasaki Motors Taiwan . All rights reserved.</p>
+          </div>
+          <a href="http://www.kymco.com.tw" target="_blank" class="icon brand"></a>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
